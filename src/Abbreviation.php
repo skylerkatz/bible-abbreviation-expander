@@ -7,11 +7,13 @@ use SkylerKatz\BibleAbbreviationExpander\Exceptions\BibleAbbreviationException;
 class Abbreviation
 {
     /**
-     * Expand an abbreviation to the book of the Bible
+     * Expand an abbreviation to the book of the Bible.
      *
      * @param string $abbreviation
-     * @return string
+     *
      * @throws BibleAbbreviationException
+     *
+     * @return string
      */
     public static function expand($abbreviation)
     {
